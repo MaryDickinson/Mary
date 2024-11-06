@@ -20,7 +20,7 @@
 #No planned contrasts. 
 
 #Installation of required packages...
-packages = c("ggplot2", "dplyr", "afex", "ez", "rstatix", "psych", "weights", "BayesFactor", "readr", "afex", "BayesFactor")
+packages = c("ggplot2", "dplyr", "afex", "ez", "rstatix", "psych", "weights", "BayesFactor", "readr")
 package.check <- lapply(
   packages,
   FUN = function(x) {
